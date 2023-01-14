@@ -10,6 +10,7 @@ body {
     height: 50px;
     background: #FF900E;
     border-radius: 8px;
+    border: 0;
 }
 
 /* header and nav section styles */
@@ -39,6 +40,7 @@ nav {
 .header-info {
     width: 973px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .header-info-title {
@@ -55,4 +57,47 @@ nav {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+/* banner section styles */
+.banner img {
+    width: 1100px;
+    height: 700px;
+    border-radius: 8px;
+}
+
+/* gallery section styles */
+.gallery{
+    display: flex;
+    align-items: center;
+}
+.gallery-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.gallery-info{
+    margin-left: 50px;
+}
+
+.gallery-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.gallery-title-part {
+    font-size: 45px;
+    color: #131313;
+}
+
+.gallery-title-portion {
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.gallery-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
 }
