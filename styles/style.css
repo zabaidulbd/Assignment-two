@@ -1,0 +1,58 @@
+body {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 50px;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+/* header and nav section styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-info ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-info ul li {
+    list-style: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header-info {
+    width: 973px;
+    text-align: center;
+}
+
+.header-info-title {
+    font-size: 64px;
+    color: #131313;
+}
+
+.header-info-description {
+    font-weight: 400;
+    color: #727272;
+}
+
+.header-info button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
