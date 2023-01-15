@@ -23,7 +23,8 @@ body {
     font-size: 20px;
     color: #131313;
 }
-.text-tertiary{
+
+.text-tertiary {
     font-size: 25px;
 }
 
@@ -197,26 +198,49 @@ nav {
     margin-top: 68px;
     padding: 17px;
 }
+
 /* sponsor section styles */
-.sponsor{
+.sponsor {
     width: 376px;
     text-align: center;
     margin: 0 auto;
     margin-top: 93px;
 }
-.sponsor-container{
+
+.sponsor-container {
     display: flex;
     justify-content: space-between;
     margin-top: 35px;
 }
+
+.service {
+    background: hwb(33 91% 0%);
+    border-radius: 11px;
+}
+
+.service-title {
+    font-size: 56px;
+    color: rgb(16, 14, 14);
+    margin-left: 85px;
+    padding-top: 17px;
+}
+
+.service-btn {
+    margin-top: -31px;
+    margin-left: 83px;
+    margin-bottom: 29px;
+    padding-bottom: 16px;
+}
+
+
 /* footer style */
-.footer{
-    background: #FFF4E7;
+.footer {
+    background: #e9e2e2;
     border-radius: 8px;
     height: 39px;
     text-align: center;
     padding: 45px;
-    width: 819px;
+    width: 1015px;
     margin-top: 42px;
     margin: 0 auto;
 }
