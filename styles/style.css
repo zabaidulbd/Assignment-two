@@ -23,6 +23,9 @@ body {
     font-size: 20px;
     color: #131313;
 }
+.text-tertiary{
+    font-size: 25px;
+}
 
 /* header and nav section styles */
 nav {
@@ -151,22 +154,69 @@ nav {
 }
 
 .feature-experience {
-    width: 342px;
-    height: 200px;
+    width: 245px;
+    height: 136px;
     background: #FF900E;
     border-radius: 8px;
     position: absolute;
     margin-left: 385px;
-    top:2988px;
+    top: 3047px;
 }
-.feature-experience span{
-    font-size: 65px;
+
+.feature-experience span {
+    font-size: 42px;
     color: #FFFFFF;
 }
-.feature-experience-year{
+
+.feature-experience-year {
     padding: 40px;
 }
-.feature-experience-year p{
+
+.feature-experience-year p {
     text-align: center;
-    color:white;
+    color: white;
+    margin-top: 4px;
+}
+
+.facts {
+    width: 364px;
+}
+
+/* icon section style */
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    width: 158.83px;
+    height: 117.83px;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 68px;
+    padding: 17px;
+}
+/* sponsor section styles */
+.sponsor{
+    width: 376px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 93px;
+}
+.sponsor-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+/* footer style */
+.footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 39px;
+    text-align: center;
+    padding: 45px;
+    width: 819px;
+    margin-top: 42px;
+    margin: 0 auto;
 }
