@@ -121,10 +121,10 @@ nav {
 
 /* features section styles */
 .features {
-    display: flex;
-    gap: 10px;
     max-width: 1100px;
     height: 1400px;
+    display: flex;
+    gap: 10px;
 }
 
 .feature {
@@ -184,6 +184,7 @@ nav {
 }
 
 /* icon section style */
+
 .icon-container {
     display: flex;
     justify-content: space-evenly;
@@ -200,6 +201,7 @@ nav {
 }
 
 /* sponsor section styles */
+
 .sponsor {
     width: 376px;
     text-align: center;
@@ -212,6 +214,8 @@ nav {
     justify-content: space-between;
     margin-top: 35px;
 }
+
+/* services section style */
 
 .service {
     background: hwb(33 91% 0%);
@@ -234,13 +238,15 @@ nav {
 
 
 /* footer style */
+
 .footer {
-    background: #e9e2e2;
-    border-radius: 8px;
-    height: 39px;
-    text-align: center;
-    padding: 45px;
     width: 1015px;
+    height: 39px;
+    padding: 45px;
     margin-top: 42px;
     margin: 0 auto;
+    background: #e9e2e2;
+    border-radius: 8px;
+    text-align: center;
+
 }
