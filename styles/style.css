@@ -250,3 +250,60 @@ nav {
     text-align: center;
 
 }
+
+/* media query */
+/* for mobile device */
+@media only screen and (max-width: 480px) {
+    body{
+        max-width: 1100px;
+        width: 100%;
+    }
+    .btn-primary{
+        margin-right: 540px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 10px;
+    }
+    .header-info-title{
+        padding-right: 590px;
+    }
+    .header-info-description{
+        padding-right: 556px;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        padding-left: 350px;
+    }
+    .gallery-info-text{
+        padding-right: 40px;
+    }
+    .features{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 20px;
+    }
+    .facts{
+        padding-left: 20px;
+    }
+    .icon-container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+    .sponsor-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 50px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer .text-primary{
+        padding-right: 70px;
+    }
+}
