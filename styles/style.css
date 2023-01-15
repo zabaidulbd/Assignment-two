@@ -13,6 +13,17 @@ body {
     border: 0;
 }
 
+.text-primary {
+    font-weight: 400;
+    color: #727272;
+}
+
+.text-secondary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
 /* header and nav section styles */
 nav {
     display: flex;
@@ -67,16 +78,18 @@ nav {
 }
 
 /* gallery section styles */
-.gallery{
+.gallery {
     display: flex;
     align-items: center;
 }
+
 .gallery-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.gallery-info{
+
+.gallery-info {
     margin-left: 50px;
 }
 
@@ -100,4 +113,37 @@ nav {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+}
+
+/* features section styles */
+.features{
+    display: flex;
+    gap: 10px;
+    max-width: 1100px;
+    height: 1400px;
+}
+.feature {
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.vertical-line {
+    width: 5px;
+    height: 80px;
+    background: #FF900E;
+    float: left;
+    border: 0;
+    margin: 0;
+}
+
+.feature-title {
+    font-size: 45px;
+    color: #131313;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+.feature-imgage{
+    margin-top: 237px;
 }
